@@ -24,7 +24,7 @@ class _LoginScreenState extends State<LoginScreen> {
   FocusNode userNameFieldFocusNode = FocusNode();
   FocusNode passwordFieldFocusNode = FocusNode();
 
-  bool togglePassword = false;
+  bool togglePassword = true;
   bool isButtonEnable = true;
   bool isLoading = false;
   AuthBloc bloc = AuthBloc(
